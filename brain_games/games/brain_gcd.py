@@ -12,8 +12,8 @@ def gcd(a, b):
 def generate_question():
     num1 = randint(1, 10)
     num2 = randint(1, 10)
-    correct_answer = str(num1 - num2) #вычисляем правильный ответ
-    questiom = f"{num1} {num2}" #формируем вопросы
+    correct_answer = str(num1 - num2)
+    questiom = f"{num1} {num2}"
     return  questiom, correct_answer
 
 

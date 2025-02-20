@@ -2,15 +2,15 @@ from random import randint
 
 RULES = "What number is missing in the progression?"
 
-def generate_progression(num1, step, lenght): #генерирует арифметическую прогрессию
-    progression = [] #пустой список
+def generate_progression(num1, step, lenght):
+    progression = []
 
     for i in range(lenght):
-        element = num1 + i * step #вычисляем каждый элемент
-        progression.append(element) #добавялем к списку элемент который вычисляли
-    return progression #возвращаем список
+        element = num1 + i * step
+        progression.append(element)
+    return progression
 
-def generate_question(): # генерирует прогрессию с пропущенным элементом
+def generate_question():
     lenght = randint(5, 10)
     num1 = randint(1, 10)
     step = randint(1, 10)
