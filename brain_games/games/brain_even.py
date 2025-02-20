@@ -1,6 +1,7 @@
-from random import  randint
+from random import randint
 
 RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
+
 
 def generate_question():
     number = randint(1, 10)

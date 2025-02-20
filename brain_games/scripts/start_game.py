@@ -1,16 +1,22 @@
+from brain_games.games import (
+    brain_calc,
+    brain_even,
+    brain_gcd,
+    brain_prime,
+    brain_progression,
+)
 from brain_games.scripts.game_engine import run_game
-from brain_games.games import brain_calc, brain_even, brain_gcd, brain_progression, brain_prime
 
 
 def main():
-    print("Choose a game:") #список игр
+    print("Choose a game:")  # список игр
     print("1. - Brain Calc")
     print("2. - Brain Even")
     print("3. - Brain GCD")
     print("4. - Brain Progression")
     print("5. - Brain Prime")
 
-    choice = input("Enter the number of the game: ") #выбираем игру
+    choice = input("Enter the number of the game: ")  # выбираем игру
 
     if choice == "1":
         run_game(brain_calc)
