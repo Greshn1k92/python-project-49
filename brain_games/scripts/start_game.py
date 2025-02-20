@@ -9,14 +9,14 @@ from brain_games.scripts.game_engine import run_game
 
 
 def main():
-    print("Choose a game:")  # список игр
+    print("Choose a game:")
     print("1. - Brain Calc")
     print("2. - Brain Even")
     print("3. - Brain GCD")
     print("4. - Brain Progression")
     print("5. - Brain Prime")
 
-    choice = input("Enter the number of the game: ")  # выбираем игру
+    choice = input("Enter the number of the game: ")
 
     if choice == "1":
         run_game(brain_calc)
