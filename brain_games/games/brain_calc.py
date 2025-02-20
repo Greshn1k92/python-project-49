@@ -11,3 +11,9 @@ def generate_question():
     question = f"{number1} {operation} {number2}"
     correct_answer = str(eval(question))
     return question, correct_answer
+
+def main():
+    generate_question()
+
+if __name__ == "__main__":
+    main()

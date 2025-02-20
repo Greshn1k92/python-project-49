@@ -18,4 +18,10 @@ def generate_question():
     questiom = f"{num1} {num2}"
     return questiom, correct_answer
 
+def main():
+    generate_question()
+
+if __name__ == "__main__":
+    main()
+
 

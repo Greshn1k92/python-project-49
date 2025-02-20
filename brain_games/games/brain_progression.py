@@ -24,3 +24,9 @@ def generate_question():
     progression_str = str(progression)
     question = ''.join(progression_str)
     return question, correct_answer
+
+def main():
+    generate_question()
+
+if __name__ == "__main__":
+    main()
