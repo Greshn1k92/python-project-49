@@ -1,5 +1,6 @@
 from random import choice, randint
 
+
 RULES = "What is the result of the expression?"
 
 

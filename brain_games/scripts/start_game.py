@@ -30,7 +30,7 @@ def main():
         run_game(brain_prime)
 
     else:
-        print("Invalid choice. Please enter 1 or 2 or 3 or 4.")
+        print("Invalid choice. Please enter 1 or 2 or 3 or 4 or 5")
 
 
 if __name__ == "__main__":
