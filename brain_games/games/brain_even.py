@@ -15,7 +15,7 @@ def main():
     name = input("May I have your name? ")
     print(f'Hello, {name}!')
 
-    print(RULES)git
+    print(RULES)
 
     correct_answer_count = 0
 
