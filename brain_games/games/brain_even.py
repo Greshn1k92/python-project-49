@@ -9,8 +9,10 @@ def generate_question():
     correct_answer = "yes" if number % 2 == 0 else "no"
     return question, correct_answer
 
+
 def main():
     generate_question()
+
 
 if __name__ == "__main__":
     main()
