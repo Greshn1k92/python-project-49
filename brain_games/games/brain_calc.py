@@ -12,8 +12,14 @@ def generate_question():
     correct_answer = str(eval(question))
     return question, correct_answer
 
+
 def main():
-    generate_question()
+    print(RULES)
+    question, correct_answer = generate_question()
+    print(question)
+
+
+
 
 if __name__ == "__main__":
     main()
