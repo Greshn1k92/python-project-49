@@ -15,7 +15,6 @@ def main():
     name = input("May I have your name? ")
     print(f'Hello, {name}!')
 
-
     correct_answer_count = 0
 
     while correct_answer_count < 3:
