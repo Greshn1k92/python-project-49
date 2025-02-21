@@ -18,6 +18,7 @@ def generate_question():
     questiom = f"{num1} {num2}"
     return questiom, correct_answer
 
+
 def main():
     print(RULES)
     print("Welcome to the Brain Games!")
@@ -43,4 +44,5 @@ def main():
     print(f"Congratulations, {name}!")
 
 
-
+if __name__ == "__main__":
+    main()
