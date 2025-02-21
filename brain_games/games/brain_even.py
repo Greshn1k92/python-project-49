@@ -14,15 +14,13 @@ def main():
     print("Welcome to the Brain Games!")
     name = input("May I have your name? ")
     print(f'Hello, {name}!')
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-    print(RULES)
 
     correct_answer_count = 0
 
     while correct_answer_count < 3:
         question, correct_answer = generate_question()
         print(f'Question: {question}')
-        user_answer = input("Your answer: ").strip().lower()
+        user_answer = input("Your answer: ")
 
         if user_answer == correct_answer:
             print("Correct!")
@@ -34,3 +32,7 @@ def main():
             return
 
     print(f"Congratulations, {name}!")
+
+
+if __name__ == "__main__":
+    main()
