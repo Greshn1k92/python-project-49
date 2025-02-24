@@ -4,17 +4,15 @@ RULES = "Find the greatest common divisor of given numbers."
 
 
 def gcd(a, b):
-    while a != b and b != a:
-        if a > b:
-            a = b % a
-        else:
-            b = a % b
+    while b:
+        a, b = b, a % b
+    return a
 
 
 def generate_question():
     num1 = randint(1, 10)
     num2 = randint(1, 10)
-    correct_answer = str(num1 - num2)
+    correct_answer = str(gcd(num1, num2))
     question = f"{num1} {num2}"
     return question, correct_answer
 
