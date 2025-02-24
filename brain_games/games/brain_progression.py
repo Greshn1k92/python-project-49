@@ -22,7 +22,7 @@ def generate_question():
     correct_answer = str(progression[hidden_index])
     progression[hidden_index] = '..'
     progression_str = str(progression)
-    question = ''.join(progression_str)
+    question = " ".join(progression_str)
     return question, correct_answer
 
 
