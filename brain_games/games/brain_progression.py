@@ -21,8 +21,8 @@ def generate_question():
     hidden_index = randint(0, lenght - 1)
     correct_answer = str(progression[hidden_index])
     progression[hidden_index] = '..'
-    progression_str = str(progression)
-    question = " ".join(progression_str)
+    question = ' '.join(map(str, progression))
+
     return question, correct_answer
 
 
