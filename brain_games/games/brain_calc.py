@@ -1,6 +1,5 @@
 from random import choice, randint
 
-
 RULES = "What is the result of the expression?"
 
 
@@ -12,6 +11,7 @@ def generate_question():
     question = f"{number1} {operation} {number2}"
     correct_answer = str(eval(question))
     return question, correct_answer
+
 
 def main():
 
@@ -37,6 +37,7 @@ def main():
             return
 
     print(f"Congratulations, {name}!")
+
 
 if __name__ == "__main__":
     main()
