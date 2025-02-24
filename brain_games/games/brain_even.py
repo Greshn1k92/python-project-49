@@ -11,6 +11,7 @@ def generate_question():
 
 
 def main():
+
     print("Welcome to the Brain Games!")
     name = input("May I have your name? ")
     print(f'Hello, {name}!')
@@ -34,5 +35,6 @@ def main():
 
     print(f"Congratulations, {name}!")
 
-
+if __name__ == "__main__":
+    main()
 
